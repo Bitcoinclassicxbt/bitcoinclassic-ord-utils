@@ -1,0 +1,42 @@
+{
+  "name": "bitcoinclassic-ord-utils",
+  "version": "0.1.0",
+  "description": "Ordinals Utils for BitcoinClassic",
+  "type": "module",
+  "keywords": [
+    "bitcoinclassic",
+    "keyring"
+  ],
+  "homepage": "https://github.com/unisat-wallet/ord-utils#readme",
+  "bugs": {
+    "url": "https://github.com/unisat-wallet/ord-utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unisat-wallet/ord-utils.git"
+  },
+  "author": "Kervin",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "bn.js": "5.2.1",
+    "bs58check": "2.1.2",
+    "bitcoinclassicjs-lib": "^0.0.2"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.5",
+    "@types/node": "^20.17.10",
+    "typescript": "latest"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
